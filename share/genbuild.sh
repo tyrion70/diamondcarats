@@ -7,7 +7,7 @@ if [ $# -gt 0 ]; then
         INFO="$(head -n 1 "$FILE")"
     fi
 else
-    echo "Usage: $0 <filename>"
+    echo "Usage: $0 <filename> M15X Was Here"
     exit 1
 fi
 
